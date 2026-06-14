@@ -133,8 +133,8 @@ amazon-playwright-tests/
 ### 1 — Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/amazon-playwright-tests.git
-cd amazon-playwright-tests
+git clone https://github.com/kumarajit0505/amazon-playwright-lambdatest-assignment.git
+cd amazon-playwright-lambdatest-assignment
 ```
 
 ### 2 — Install dependencies
@@ -151,13 +151,9 @@ npx playwright install --with-deps chromium
 
 ### 4 — Set up environment variables
 
-```bash
+````bash
 # Windows PowerShell
 Copy-Item .env.example .env
-
-# Mac / Linux
-cp .env.example .env
-```
 
 Open `.env` and fill in your LambdaTest credentials (see [Environment Variables](#environment-variables)).
 
@@ -177,7 +173,7 @@ LT_ACCESS_KEY=your_lambdatest_access_key
 # Set to "true" to run on LambdaTest cloud
 # Leave as "false" to run locally
 LAMBDATEST=false
-```
+````
 
 ### How to get LambdaTest credentials
 
